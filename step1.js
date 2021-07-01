@@ -11,3 +11,5 @@ function cat(path){
 }
 
 cat(process.argv[2])
+
+module.exports = {cat}
